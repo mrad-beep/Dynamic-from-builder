@@ -1,0 +1,186 @@
+
+
+body{
+font-family: Arial;
+background:#0ed7ed;
+padding:20px;
+}
+
+h1{
+text-align:center;
+}
+
+section{
+background:#CC8B86;
+padding:20px;
+margin:20px 0;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+input,select,button{
+padding:8px;
+margin:5px 0;
+}
+
+button{
+background:#007BFF;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+table{
+width:100%;
+margin-top:10px;
+border-collapse:collapse;
+}
+
+table th,table td{
+border:1px solid #ddd;
+padding:8px;
+}
+
+button{
+background:#007bff;
+color:white;
+border:none;
+padding:6px 10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+button:active{
+transform:scale(0.95);
+}
+
+
+body{
+background-color: white;
+color: black;
+font-family: Arial, sans-serif;
+}
+
+
+.dark{
+background-color: #121212;
+color: white;
+}
+
+
+.dark section{
+background: #3B1C32;
+padding: 15px;
+border-radius: 8px;
+}
+
+.dark{
+background-color:#121212;
+color:white;
+}
+
+
+
+
+
+
+.theme-toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #333;
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
+
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+
+.dark-mode input,
+.dark-mode textarea,
+.dark-mode select {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+/* Page Background */
+body{
+    background-color: #F9EAE1;   
+    font-family: Arial, sans-serif;
+}
+
+/* Buttons */
+button{
+    background-color: #7D4F50;   
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Button Hover Effect */
+button:hover{
+    background-color: #350b0c;   /* darker pink on hover */
+}
+h1{
+font-size:50px;
+text-align:center;
+font-weight:bold;
+}

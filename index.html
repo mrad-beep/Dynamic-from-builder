@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dynamic Form Builder</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+ 
+ <div class="theme-toggle">
+    <label class="switch">
+        <input type="checkbox" id="themeToggle">
+        <span class="slider"></span>
+    </label>
+</div>
+
+<h1>Form Builder</h1>
+
+
+<section id="builder">
+
+<h2>Create Form</h2>
+
+<input type="text" id="title" placeholder="Form Title">
+
+<select id="fieldType">
+<option value="text">Text</option>
+<option value="dropdown">Dropdown</option>
+<option value="radio">Radio</option>
+<option value="checkbox">Checkbox</option>
+</select>
+
+<button onclick="addField()">Add Field</button>
+
+<div id="fields"></div>
+
+<button onclick="saveForm()">Save Form</button>
+
+</section>
+
+<hr>
+
+
+<section id="formArea">
+
+<h2>Fill Form</h2>
+
+<form id="userForm">
+
+<div id="generatedForm"></div>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</section>
+
+<hr>
+
+
+<section id="responses">
+
+<h2>Responses</h2>
+
+<table border="1">
+<thead>
+<tr>
+<th>Submitted Responses</th>
+<th>Action</th>
+</tr>
+</thead>
+
+<tbody id="responseTable"></tbody>
+
+</table>
+
+</section>
+
+<script src="js/script.js"></script>
+
+
